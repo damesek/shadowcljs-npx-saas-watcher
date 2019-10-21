@@ -1,0 +1,35 @@
+{
+  "name": "Vega-Charts",
+  "version": "0.3.0",
+  "description": "Mini lib for Vega Charts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damesek/vega-charts-shadow-cljs"
+  },
+  "author": {
+    "name": "Szabolcs Bader",
+    "email": "sb@baader.hu"
+  },
+  "license": "EPL-1.0",
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "server": "shadow-cljs server",
+    "clean": "rm -rf target && rm -rf public/js",
+    "clean-win": "rmdir /s /q public/js & rmdir /s /q target"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "vega": "^5.7.2",
+    "vega-lite": "^3.4.0",
+    "vega-embed": "^4.2.2",
+    "vega-tooltip": "^0.18.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "normalize.scss": "^0.1.0",
+    "shadow-cljs": "^2.8.37"
+  }
+}
