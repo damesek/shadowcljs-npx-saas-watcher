@@ -1,7 +1,7 @@
 # Example dev setup run multiple npx/shell app watcher on shadow-cljs 
 based on my mini Vega project.
 
-Example code with mount:
+Mini example code with mount how to run sass watcher:
 
 ```
 
