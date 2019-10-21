@@ -3,16 +3,7 @@ based on my mini Vega project.
 
 Example code with mount:
 
-```(ns-tools/set-refresh-dirs "src" "dev")
-
-(def stdout nil)
-(def stderr nil)
-
-#_(mount/defstate sass-server
-  :start (future (sh "bash" "-c" "nohup npx sass --watch sass/main.scss:public/css/main.css & echo $! > pid.txt"))
-  :stop (sh "bash" "-c" (str "kill " (clojure.string/trim (slurp "pid.txt")))))
-
-(def p (atom {}))
+```
 
 (defn process [cmd proc & [shell-cmd]]
   ;npx sass --watch sass/main.scss:public/css/main.css
