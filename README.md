@@ -1,5 +1,5 @@
-# Example dev setup which based on Vega Charts for Shadow-cljs alpha project
-# shadowcljs-npx-saas-watcher
+# Example dev setup run multiple npx/shell app watcher on shadow-cljs 
+based on my mini Vega project.
 
 Example code with mount:
 
