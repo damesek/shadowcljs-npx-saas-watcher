@@ -18,8 +18,8 @@
 
 (ns-tools/set-refresh-dirs "src" "dev")
 
-(def stdout nil)
-(def stderr nil)
+;(def stdout nil)
+;(def stderr nil)
 
 #_(mount/defstate sass-server
   :start (future (sh "bash" "-c" "nohup npx sass --watch sass/main.scss:public/css/main.css & echo $! > pid.txt"))
